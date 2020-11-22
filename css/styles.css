@@ -61,6 +61,9 @@ ul {
 nav .link-current {
   color: var(--accent-color);
 }
+.centered {
+  text-align: center;
+}
 .head-one {
   margin-top: 0;
   margin-bottom: 0;
@@ -83,33 +86,68 @@ nav .link-current {
   border: 1px solid transparent;
   padding: 10px 32px;
   min-width: 200px;
-  text-align: center;
+}
+.feature {
+  padding: 94px 215px;
 }
 .specialty h3 {
   font-size: 14px;
   font-weight: 700;
   color: var(--primary-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .specialty p {
   font-size: 14px;
   font-weight: 400;
   color: var(--secondary-text-color);
   line-height: 1.71;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 h2 .headtwo {
+  display: inline-block;
   font-size: 36px;
   font-weight: 700;
   color: var(--primary-text-color);
+  margin-top: 0;
+}
+.headtwo img {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.marginzero {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.people {
+  display: inline-block;
+  margin-top: 50px;
 }
 .people h3 {
   font-size: 16px;
   font-weight: 500;
   color: var(--primary-text-color);
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 .people p {
   font-size: 16px;
   font-weight: 400;
   color: var(--secondary-text-color);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.logo {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+.address-footer {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 .address-footer a {
   font-size: 14px;
@@ -129,28 +167,47 @@ h2 .headtwo {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
   line-height: 1.63;
+  border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 .filter-portfolio button:hover {
   background-color: var(--accent-color);
   color: var(--logo-accent-footer);
 }
+.button-portf {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+}
 .hide {
   display: none;
+}
+.portf {
+  margin-top: 34px;
+  margin-bottom: 0;
+}
+.portf-portf {
+  display: inline-block;
 }
 .portf-portf h2 {
   font-size: 18px;
   font-weight: 700;
   color: var(--primary-text-color);
   line-height: 2;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 .portf-portf p {
   font-size: 16px;
   font-weight: 400;
   color: var(--secondary-text-color);
   line-height: 1.88;
+  display: inline-block;
+  margin-top: 4px;
+  margin-bottom: 0;
 }
 
 a:focus {
@@ -163,7 +220,15 @@ footer {
   background-color: #f5f4fa;
 }
 /*margin-padding*/
-.container {
+.navbox {
   padding-left: 15px;
   padding-right: 15px;
+}
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid tomato;
 }
