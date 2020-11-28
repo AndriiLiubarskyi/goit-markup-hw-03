@@ -90,7 +90,9 @@ nav .link-current {
 .heroorder {
   display: block;
   display: flex;
+  height: 600px;
   flex-direction: column;
+  background-color: #2f303a;
 }
 .head-one {
   text-transform: uppercase;
@@ -104,16 +106,17 @@ nav .link-current {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 200px;
   font-size: 44px;
   font-weight: 900;
   color: white;
-  background-color: #2f303a;
   line-height: 1.36;
 }
 .order {
   text-align: center;
   font-size: 16px;
   font-weight: 700;
+  letter-spacing: 0.06em;
   color: white;
   line-height: 1.88;
 }
@@ -122,10 +125,12 @@ nav .link-current {
   background: var(--accent-color);
   border-radius: 4px;
   border: 1px solid transparent;
-  padding: 10px 32px;
+  padding: 0;
   width: 200px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 .feature {
   padding: 94px 215px;
@@ -133,6 +138,7 @@ nav .link-current {
 .specialty {
   display: flex;
   flex-wrap: wrap;
+  letter-spacing: 0.03em;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -228,17 +234,20 @@ h2 .headtwo {
   font-weight: 400;
   color: var(--secondary-text-color);
   margin-top: 10px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 .logo {
   display: inline-block;
   margin-top: 60px;
   margin-bottom: 0;
+  margin-left: 15px;
 }
 .address-footer {
   display: inline-block;
   margin-top: 20px;
   margin-bottom: 60px;
+  margin-left: 15px;
+  padding: 0;
 }
 .address-footer a {
   font-size: 14px;
@@ -252,25 +261,36 @@ h2 .headtwo {
 .address-footer a:hover {
   color: var(--accent-color);
 }
+.address-footer li {
+  margin-top: 9px;
+}
+.filter-portfolio ul {
+  display: flex;
+  justify-content: center;
+}
 .filter-portfolio button {
-  font-size: 16px;
-  font-weight: 500;
+  margin-right: 8px;
+  border-style: none;
   color: var(--primary-text-color);
   background-color: #f5f4fa;
-  line-height: 1.63;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+#last-button {
+  margin-right: 0;
 }
 .filter-portfolio button:hover {
   background-color: var(--accent-color);
   color: var(--logo-accent-footer);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-portf {
   display: inline-block;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-weight: 700;
-  line-height: 1.88;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.5px;
 }
 .hide {
   display: none;
@@ -290,6 +310,7 @@ h2 .headtwo {
 .portf-portf .item {
   display: block;
   display: flex;
+  /*border: 1px solid #EEEEEE*/
   width: ((100% -60px) / 3);
   flex-wrap: wrap;
   margin-right: 30px;
@@ -346,9 +367,16 @@ footer {
   margin-right: auto;
   padding-left: 0;
   padding-right: 0;
-  outline: 2px solid tomato;
+  /*outline: 2px solid tomato;*/
 }
 .container .one {
   display: block;
   display: flex;
+}
+
+/*оформление контейнеров*/
+
+.main {
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
