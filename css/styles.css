@@ -48,8 +48,8 @@ a {
 }
 .nav a {
   display: block;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .link-current .nav-mail-tel {
   font-family: Roboto sans-serif;
@@ -114,7 +114,7 @@ nav .link-current {
   flex-direction: column;
   width: 696px;
   height: 120px;
-  margin-top: 200px;
+  padding-top: 200px;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
@@ -123,16 +123,14 @@ nav .link-current {
   color: white;
   line-height: 1.36;
 }
-.order {
+.button-order {
+  display: block;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.06em;
   color: white;
   line-height: 1.88;
-}
-.button-order {
-  display: block;
   background: var(--accent-color);
   border-radius: 4px;
   border: 1px solid transparent;
@@ -144,13 +142,14 @@ nav .link-current {
   margin-top: 30px;
 }
 .feature {
-  padding: 94px 215px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .specialty {
   display: flex;
   flex-wrap: wrap;
   letter-spacing: 0.03em;
-  margin-left: 15px;
+  margin: 0;
   padding: 0;
 }
 .specialty .item {
@@ -374,8 +373,8 @@ footer {
 }
 .navbox {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 0;
   align-items: center;
   justify-content: space-between;
 }
@@ -383,8 +382,8 @@ footer {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
   /*outline: 2px solid tomato;*/
 }
 .container .one {
