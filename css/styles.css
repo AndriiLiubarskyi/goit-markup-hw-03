@@ -15,6 +15,7 @@ body {
   background-color: var(--logo-accent-footer);
   color: var(--logo-accent-header);
   font-family: Roboto, sans-serif;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -43,6 +44,8 @@ a {
 .nav {
   display: block;
   display: flex;
+  /*width: 294px;
+  height: 16px;*/
   padding-left: 0;
   margin-left: 93px;
 }
@@ -51,25 +54,31 @@ a {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.link-current .nav-mail-tel {
+.link-current,
+.nav-mail-tel {
   font-family: Roboto sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  margin-left: 0px;
 }
 .navbox > a {
   display: block;
+  width: 145px;
+  height: 31px;
 }
 .nav li:not(:last-child) {
   margin-right: 50px;
 }
 .nav-mail-tel {
-  margin: 0;
-  padding: 0;
+  display: block;
   display: flex;
-  margin-left: auto;
+  width: 294px;
+  height: 16px;
+  margin-left: 331px;
+  padding: 0;
 }
 .nav-mail-tel li:not(:last-child) {
   margin-right: 50px;
@@ -100,21 +109,18 @@ nav .link-current {
   text-align: center;
 }
 .heroorder {
-  display: block;
-  display: flex;
+  padding-top: 200px;
+}
+.hero {
   height: 600px;
-  flex-direction: column;
   background-color: #2f303a;
 }
 .head-one {
   text-transform: uppercase;
   letter-spacing: 2.64px;
-  display: block;
-  display: flex;
-  flex-direction: column;
-  width: 696px;
-  height: 120px;
-  padding-top: 200px;
+  max-width: 696px;
+  /*padding-top: 200px;*/
+  margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
@@ -178,16 +184,19 @@ nav .link-current {
 }
 .headtwo {
   display: block;
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 0;
   padding: 0;
   font-size: 36px;
   font-weight: 700;
   color: var(--primary-text-color);
 }
+.headtwo-div {
+  padding-top: 94px;
+}
 .headtwo-team {
   display: block;
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 0;
   padding: 54px 0 0 0;
   font-size: 36px;
@@ -197,7 +206,7 @@ nav .link-current {
 .ourwork {
   display: block;
   display: flex;
-  margin: 50px 15px 0 15px;
+  margin: 50px 0 0 0;
   padding: 0;
   width: ((100% - 90px) / 3);
 }
@@ -213,7 +222,10 @@ nav .link-current {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+.divpeople {
+  padding-top: 94px;
+  margin-top: 94px;
+}
 .people {
   display: block;
   display: flex;
@@ -372,11 +384,13 @@ footer {
   background-color: #f5f4fa;
 }
 .navbox {
+  display: block;
   display: flex;
+  flex-direction: row;
   padding-left: 0;
   padding-right: 0;
   align-items: center;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 .container {
   width: 1200px;
@@ -384,11 +398,13 @@ footer {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /*outline: 2px solid tomato;*/
+  outline: 2px solid tomato;
 }
-.container .one {
+.one {
   display: block;
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .main {
   margin-top: 94px;
