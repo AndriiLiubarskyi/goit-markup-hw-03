@@ -8,7 +8,7 @@
 }
 
 /*---tune-up---*/
-/** {
+/* {
           outline: 2px solid tomato;*/
 /*---tune-up---*/
 body {
@@ -25,6 +25,7 @@ a {
 .logo-studio,
 .logo-studiotwo {
   font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
 }
 .logo-web {
   font-size: 26px;
@@ -48,6 +49,7 @@ a {
   height: 16px;*/
   padding-left: 0;
   margin-left: 93px;
+  letter-spacing: 0.03em;
 }
 .nav a {
   display: block;
@@ -56,7 +58,7 @@ a {
 }
 .link-current,
 .nav-mail-tel {
-  font-family: Roboto sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -64,20 +66,16 @@ a {
   letter-spacing: 0.02em;
   margin-left: 0px;
 }
-.navbox > a {
-  display: block;
-  width: 145px;
-  height: 31px;
-}
 .nav li:not(:last-child) {
   margin-right: 50px;
 }
 .nav-mail-tel {
   display: block;
   display: flex;
-  width: 294px;
-  height: 16px;
-  margin-left: 331px;
+  letter-spacing: 0.02em;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
 }
 .nav-mail-tel li:not(:last-child) {
@@ -110,6 +108,7 @@ nav .link-current {
 }
 .heroorder {
   padding-top: 200px;
+  letter-spacing: 0.06em;
 }
 .hero {
   height: 600px;
@@ -150,6 +149,7 @@ nav .link-current {
 .feature {
   padding-top: 94px;
   padding-bottom: 94px;
+  letter-spacing: 0.03em;
 }
 .specialty {
   display: flex;
@@ -173,6 +173,7 @@ nav .link-current {
   color: var(--primary-text-color);
   margin-top: 0;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 .specialty p {
   font-size: 14px;
@@ -208,10 +209,11 @@ nav .link-current {
   display: flex;
   margin: 50px 0 0 0;
   padding: 0;
-  width: ((100% - 90px) / 3);
 }
 .ourwork .item {
   display: block;
+  box-sizing: border-box;
+  width: ((100% - 90px) / 3);
   margin-right: 30px;
 }
 .ourwork .item:nth-child(3n) {
@@ -229,15 +231,17 @@ nav .link-current {
 .people {
   display: block;
   display: flex;
-  padding: 0 15px;
+  padding: 0 0 94px 0;
   margin-top: 50px;
   padding-bottom: 94px;
   flex-wrap: wrap;
   margin-bottom: 0;
+  letter-spacing: 0.03em;
 }
 .people .item {
   display: block;
   display: flex;
+  box-sizing: border-box;
   border-radius: 0 0 4px 4px;
   width: 270px;
   flex-direction: column;
@@ -272,6 +276,7 @@ nav .link-current {
 }
 .address-footer {
   display: inline-block;
+  letter-spacing: 0.03em;
   margin-top: 20px;
   margin-bottom: 60px;
   margin-left: 15px;
@@ -321,7 +326,7 @@ nav .link-current {
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03px;
 }
 .hide {
   display: none;
@@ -338,11 +343,12 @@ nav .link-current {
   display: block;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 15px 0 15px;
+  margin: 0 0 0 0;
 }
 .portf-portf .item {
   display: block;
   display: flex;
+  box-sizing: border-box;
   width: ((100% -60px) / 3);
   flex-wrap: wrap;
   margin-right: 30px;
@@ -363,6 +369,7 @@ nav .link-current {
   display: block;
   margin-top: 20px;
   margin-bottom: 0;
+  letter-spacing: 0.06em;
 }
 .portf-portf p {
   font-size: 16px;
@@ -372,6 +379,7 @@ nav .link-current {
   display: block;
   margin-top: 4px;
   margin-bottom: 0;
+  letter-spacing: 0.03em;
 }
 
 a:focus {
@@ -393,12 +401,12 @@ footer {
   /*justify-content: space-between;*/
 }
 .container {
-  width: 1200px;
+  width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /*outline: 2px solid tomato;*/
 }
 .one {
   display: block;
