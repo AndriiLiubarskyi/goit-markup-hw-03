@@ -265,6 +265,8 @@ nav .link-current {
 .name-team {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .people h3 {
   text-align: center;
@@ -284,16 +286,16 @@ nav .link-current {
 }
 .logo {
   display: inline-block;
-  margin-top: 60px;
+  padding-top: 60px;
   margin-bottom: 0;
-  margin-left: 15px;
+}
+address {
+  margin-top: 20px;
 }
 .address-footer {
   display: inline-block;
   letter-spacing: 0.03em;
-  margin-top: 20px;
-  margin-bottom: 60px;
-  margin-left: 15px;
+  padding-bottom: 60px;
   padding: 0;
 }
 .address-footer a {
@@ -311,9 +313,14 @@ nav .link-current {
 .address-footer li {
   margin-top: 9px;
 }
-.filter-portfolio ul {
+.filter-portfolio {
+  display: block;
   display: flex;
+  width: 611px;
+  height: 54px;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
 }
 .filter-portfolio button {
@@ -357,7 +364,7 @@ nav .link-current {
   display: block;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0 0 0;
+  margin: 34px 0 0 0;
 }
 .portf-portf .item {
   display: block;
@@ -435,6 +442,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 .main {
   padding-top: 94px;
